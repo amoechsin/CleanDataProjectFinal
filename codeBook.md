@@ -1,6 +1,6 @@
 ### Codebook
 
-This codebook tells will describe the data and preparation on tidying the data set for final analysis to output the "Tidy Data set"
+This codebook tells will describe the data and preparation on tidying the data set for final analysis to output the Tidy Data set
 
 ## Datasets used
 
@@ -30,84 +30,84 @@ Following files are used:
 
 ## Tidy Data set field output
 
-"Subject_desc" - Subject ID
-"activity_label_desc" - Activity Label (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING)
-"tBodyAcc-mean()-X"
-"tBodyAcc-mean()-Y"
-"tBodyAcc-mean()-Z"
-"tBodyAcc-std()-X"
-"tBodyAcc-std()-Y"
-"tBodyAcc-std()-Z"
-"tGravityAcc-mean()-X"
-"tGravityAcc-mean()-Y"
-"tGravityAcc-mean()-Z"
-"tGravityAcc-std()-X"
-"tGravityAcc-std()-Y"
-"tGravityAcc-std()-Z"
-"tBodyAccJerk-mean()-X"
-"tBodyAccJerk-mean()-Y"
-"tBodyAccJerk-mean()-Z"
-"tBodyAccJerk-std()-X"
-"tBodyAccJerk-std()-Y"
-"tBodyAccJerk-std()-Z"
-"tBodyGyro-mean()-X"
-"tBodyGyro-mean()-Y"
-"tBodyGyro-mean()-Z"
-"tBodyGyro-std()-X"
-"tBodyGyro-std()-Y"
-"tBodyGyro-std()-Z"
-"tBodyGyroJerk-mean()-X"
-"tBodyGyroJerk-mean()-Y"
-"tBodyGyroJerk-mean()-Z"
-"tBodyGyroJerk-std()-X"
-"tBodyGyroJerk-std()-Y"
-"tBodyGyroJerk-std()-Z"
-"tBodyAccMag-mean()"
-"tBodyAccMag-std()"
-"tGravityAccMag-mean()"
-"tGravityAccMag-std()"
-"tBodyAccJerkMag-mean()"
-"tBodyAccJerkMag-std()"
-"tBodyGyroMag-mean()"
-"tBodyGyroMag-std()"
-"tBodyGyroJerkMag-mean()"
-"tBodyGyroJerkMag-std()"
-"fBodyAcc-mean()-X"
-"fBodyAcc-mean()-Y"
-"fBodyAcc-mean()-Z"
-"fBodyAcc-std()-X"
-"fBodyAcc-std()-Y"
-"fBodyAcc-std()-Z"
-"fBodyAcc-meanFreq()-X"
-"fBodyAcc-meanFreq()-Y"
-"fBodyAcc-meanFreq()-Z"
-"fBodyAccJerk-mean()-X"
-"fBodyAccJerk-mean()-Y"
-"fBodyAccJerk-mean()-Z"
-"fBodyAccJerk-std()-X"
-"fBodyAccJerk-std()-Y"
-"fBodyAccJerk-std()-Z"
-"fBodyAccJerk-meanFreq()-X"
-"fBodyAccJerk-meanFreq()-Y"
-"fBodyAccJerk-meanFreq()-Z"
-"fBodyGyro-mean()-X"
-"fBodyGyro-mean()-Y"
-"fBodyGyro-mean()-Z"
-"fBodyGyro-std()-X"
-"fBodyGyro-std()-Y"
-"fBodyGyro-std()-Z"
-"fBodyGyro-meanFreq()-X"
-"fBodyGyro-meanFreq()-Y"
-"fBodyGyro-meanFreq()-Z"
-"fBodyAccMag-mean()"
-"fBodyAccMag-std()"
-"fBodyAccMag-meanFreq()"
-"fBodyBodyAccJerkMag-mean()"
-"fBodyBodyAccJerkMag-std()"
-"fBodyBodyAccJerkMag-meanFreq()"
-"fBodyBodyGyroMag-mean()"
-"fBodyBodyGyroMag-std()"
-"fBodyBodyGyroMag-meanFreq()"
-"fBodyBodyGyroJerkMag-mean()"
-"fBodyBodyGyroJerkMag-std()"
-"fBodyBodyGyroJerkMag-meanFreq()"
+1 Subject_desc - Subject ID
+2 activity_label_desc - Activity Label (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING)
+3 tBodyAcc-mean()-X
+4 tBodyAcc-mean()-Y
+5 tBodyAcc-mean()-Z
+6 tBodyAcc-std()-X
+7 tBodyAcc-std()-Y
+8 tBodyAcc-std()-Z
+9 tGravityAcc-mean()-X
+10tGravityAcc-mean()-Y
+11tGravityAcc-mean()-Z
+12tGravityAcc-std()-X
+13tGravityAcc-std()-Y
+14tGravityAcc-std()-Z
+15tBodyAccJerk-mean()-X
+16tBodyAccJerk-mean()-Y
+17tBodyAccJerk-mean()-Z
+18tBodyAccJerk-std()-X
+19tBodyAccJerk-std()-Y
+20tBodyAccJerk-std()-Z
+21tBodyGyro-mean()-X
+22tBodyGyro-mean()-Y
+23tBodyGyro-mean()-Z
+24tBodyGyro-std()-X
+25tBodyGyro-std()-Y
+26tBodyGyro-std()-Z
+27tBodyGyroJerk-mean()-X
+28tBodyGyroJerk-mean()-Y
+29tBodyGyroJerk-mean()-Z
+30tBodyGyroJerk-std()-X
+31tBodyGyroJerk-std()-Y
+32tBodyGyroJerk-std()-Z
+33tBodyAccMag-mean()
+34tBodyAccMag-std()
+35tGravityAccMag-mean()
+36tGravityAccMag-std()
+37tBodyAccJerkMag-mean()
+38tBodyAccJerkMag-std()
+39tBodyGyroMag-mean()
+40tBodyGyroMag-std()
+41tBodyGyroJerkMag-mean()
+42tBodyGyroJerkMag-std()
+43fBodyAcc-mean()-X
+44fBodyAcc-mean()-Y
+45fBodyAcc-mean()-Z
+46fBodyAcc-std()-X
+47fBodyAcc-std()-Y
+48fBodyAcc-std()-Z
+49fBodyAcc-meanFreq()-X
+50fBodyAcc-meanFreq()-Y
+51fBodyAcc-meanFreq()-Z
+52fBodyAccJerk-mean()-X
+53fBodyAccJerk-mean()-Y
+54fBodyAccJerk-mean()-Z
+55fBodyAccJerk-std()-X
+56fBodyAccJerk-std()-Y
+57fBodyAccJerk-std()-Z
+58fBodyAccJerk-meanFreq()-X
+59fBodyAccJerk-meanFreq()-Y
+60fBodyAccJerk-meanFreq()-Z
+61fBodyGyro-mean()-X
+62fBodyGyro-mean()-Y
+63fBodyGyro-mean()-Z
+64fBodyGyro-std()-X
+65fBodyGyro-std()-Y
+66fBodyGyro-std()-Z
+67fBodyGyro-meanFreq()-X
+68fBodyGyro-meanFreq()-Y
+69fBodyGyro-meanFreq()-Z
+70fBodyAccMag-mean()
+71fBodyAccMag-std()
+72fBodyAccMag-meanFreq()
+73fBodyBodyAccJerkMag-mean()
+74fBodyBodyAccJerkMag-std()
+75fBodyBodyAccJerkMag-meanFreq()
+76fBodyBodyGyroMag-mean()
+77fBodyBodyGyroMag-std()
+78fBodyBodyGyroMag-meanFreq()
+79fBodyBodyGyroJerkMag-mean()
+80fBodyBodyGyroJerkMag-std()
+81fBodyBodyGyroJerkMag-meanFreq()
